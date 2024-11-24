@@ -1,0 +1,21 @@
+#toolbar-menubar[inactive='true'] + #TabsToolbar {
+    visibility: collapse !important;
+}
+
+#sidebar-header {
+    background: var(--toolbar-bgcolor);
+}
+#sidebar-header * {
+    margin-top: -2px !important;
+    margin-bottom: -2px !important;
+}
+
+#PanelUI-button {
+    order: -2 !important;
+}
+#nav-bar-overflow-button {
+    order: -1 !important;
+}
+:root {
+    --toolbar-start-end-padding: 3px !important;
+}
